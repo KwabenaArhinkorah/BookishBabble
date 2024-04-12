@@ -1,2 +1,2 @@
-"# Player-Rating" 
+
 "# BookishBabble" 

@@ -1,0 +1,62 @@
+/* Styles for Search Results Page */
+
+/* Main container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Book container */
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Book card */
+.book-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.book-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Book image */
+.book-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* Book title */
+.book-card p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* New Search button */
+.new-search-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.new-search-btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.new-search-btn a:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,105 @@
+/* Reset default browser styles */
+body, h1, h2, h3, ul, li, p, form, input, textarea, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.book-details {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.book-info {
+    flex: 1;
+}
+
+.book-info img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.synopsis {
+    margin-top: 10px;
+}
+
+.synopsis p {
+    margin-bottom: 10px;
+}
+
+.reviews {
+    list-style: none;
+    padding: 0;
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.rating {
+    margin-bottom: 10px;
+}
+
+.rating .star {
+    color: #f9bc0c; /* Change star color */
+    font-size: 20px;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container input[type="number"],
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-container input[type="submit"] {
+    background-color: #4caf50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff; /* Change link color */
+}
